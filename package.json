@@ -1,9 +1,9 @@
 {
   "private": true,
   "name": "minimal-blog",
-  "description": "Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.",
+  "description": "Jiahao Chen",
   "version": "0.1.4",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Jiahao <jh.chen@mail.mcgill.ca>",
   "license": "MIT",
   "starter-name": "gatsby-starter-minimal-blog",
   "scripts": {
@@ -16,14 +16,15 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.0.2",
     "@lekoarts/gatsby-theme-minimal-blog": "^1.2.0",
     "@types/theme-ui": "^0.2.6",
     "@types/theme-ui__components": "^0.2.0",
+    "antd": "^4.0.0",
     "gatsby": "^2.18.18",
     "gatsby-image": "^2.2.37",
     "gatsby-plugin-google-analytics": "^2.1.31",
     "gatsby-plugin-manifest": "^2.2.34",
-    "gatsby-plugin-netlify": "^2.1.30",
     "gatsby-plugin-offline": "^3.0.30",
     "gatsby-plugin-react-helmet": "^3.1.18",
     "gatsby-plugin-sitemap": "^2.2.24",
@@ -35,7 +36,8 @@
     "katex": "^0.11.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-typed": "^1.2.0",
+    "react-masonry-css": "^1.0.14",
+    "react-text-loop": "^2.3.0",
     "typeface-spectral": "^0.0.72"
   },
   "devDependencies": {

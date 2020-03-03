@@ -47,22 +47,11 @@ export default {
   useCustomProperties: true,
   colors: {
     ...tailwind.colors,
-    primary: tailwind.colors.orange[6],
-    secondary: tailwind.colors.orange[7],
+    primary: tailwind.colors.teal[6],
+    secondary: tailwind.colors.teal[7],
     toggleIcon: tailwind.colors.blue[8],
     heading: tailwind.colors.black,
     divide: tailwind.colors.gray[4],
-    modes: {
-      dark: {
-        text: tailwind.colors.gray[4],
-        primary: tailwind.colors.gray[3],
-        secondary: tailwind.colors.orange[4],
-        toggleIcon: `#F5D76E`,
-        background: `#1A202C`,
-        heading: tailwind.colors.indigo[3],
-        divide: tailwind.colors.indigo[3]
-      }
-    }
   },
   fonts: {
     ...tailwind.fonts,
@@ -106,7 +95,7 @@ export default {
     li: {
       fontSize: [1, 2, 3],
       color: `text`
-    }
+    },
   },
   text: {
     ...headingStyles,
@@ -115,7 +104,7 @@ export default {
       fontWeight: `heading`,
       lineHeight: `heading`,
       color: `heading`
-    }
+    },
   },
   images: {
     avatar: {

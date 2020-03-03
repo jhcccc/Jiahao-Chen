@@ -70,3 +70,8 @@ public
 .idea
 .vscode
 .DS_Store
+
+.firebase
+.firebaserc
+yarn.lock
+.ghost.json

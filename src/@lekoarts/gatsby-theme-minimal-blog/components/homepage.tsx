@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import Layout from "@lekoarts/gatsby-theme-minimal-blog/src/components/layout";
 import Listing from "@lekoarts/gatsby-theme-minimal-blog/src/components/listing";
-// import Bottom from "@lekoarts/gatsby-theme-minimal-blog/src/texts/bottom"
 import Title from "@lekoarts/gatsby-theme-minimal-blog/src/components/title";
 import useSiteMetadata from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-site-metadata";
 import replaceSlashes from "@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes";
@@ -35,9 +34,6 @@ const Homepage = ({ posts }: PostsProps) => {
         </Link>
       </Title>
       <Listing posts={posts} showTags={false} />
-      {/* <List>
-        <Bottom />
-      </List> */}
     </Layout>
   );
 };

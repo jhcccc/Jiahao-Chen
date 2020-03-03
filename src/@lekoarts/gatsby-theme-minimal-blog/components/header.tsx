@@ -11,12 +11,6 @@ import replaceSlashes from "@lekoarts/gatsby-theme-minimal-blog/src/utils/replac
 const Header = () => {
   const { siteTitle, externalLinks, basePath } = useSiteMetadata();
   const nav = useNavigation();
-  const [colorMode, setColorMode] = useColorMode();
-  const isDark = colorMode === `dark`;
-  const toggleColorMode = (e: any) => {
-    e.preventDefault();
-    setColorMode(isDark ? `light` : `dark`);
-  };
 
   return (
     <header sx={{ mb: [3, 4, 5] }}>
@@ -30,7 +24,6 @@ const Header = () => {
             {siteTitle}
           </h1>
         </Link>
-        <ColorModeToggle isDark={isDark} toggle={toggleColorMode} />
       </Flex>
       <Flex
         sx={{

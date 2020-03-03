@@ -27,17 +27,17 @@ try {
 }
 
 module.exports = {
-  siteMetadata: {
+    siteMetadata: {
     // Used for the title template on pages other than the index site
-    siteTitle: `Sixian Li`,
+    siteTitle: `Jiahao Chen`,
     // Default title of the page
-    siteTitleAlt: `Sixian Li`,
+    siteTitleAlt: `Jiahao Chen`,
     // Can be used for e.g. JSONLD
-    siteHeadline: `Sixian Li`,
+    siteHeadline: `Jiahao Chen`,
     // Will be used to generate absolute URLs for og:image etc.
-    siteUrl: `https://sixian.li`,
+    siteUrl: `https://jiahao-chen.web.app`,
     // Used for SEO`
-    siteDescription: `Sixian Li's life and thoughts`,
+    siteDescription: `Jiahao Chen Software Engineering McGill University`,
     // Will be set on the <html /> tag
     siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
@@ -46,12 +46,12 @@ module.exports = {
     externalLinks: [
       {
         name: `Github`,
-        url: `https://github.com/Deerhound579`
+        url: `https://github.com/jhcccc`
       },
       {
         name: `Linkedin`,
-        url: `https://www.linkedin.com/in/lisixian/`
-      }
+        url: `https://www.linkedin.com/in/jiahao-chen-jhcccc/`
+      },
     ],
     // Navigation links
     navigation: [
@@ -60,9 +60,13 @@ module.exports = {
         slug: `/blog` // I want the default homepage to be /blog
       },
       {
+        title: `Projects`,
+        slug: `/projects`
+      },
+      {
         title: `About`,
         slug: `/about`
-      }
+      },
     ]
   },
   plugins: [
@@ -118,9 +122,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Sixian Li`,
-        short_name: `sixian.li`,
-        description: `Attempts to capture floating thoughts in Sixian Li's mind`,
+        name: `Jiahao Chen`,
+        short_name: `Jiahao`,
+        description: `My projects and blog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#f6ad55`,
@@ -140,7 +144,6 @@ module.exports = {
       }
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-ghost`,

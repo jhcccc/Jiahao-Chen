@@ -1,29 +1,21 @@
 /** @jsx jsx */
-import Typed from "react-typed";
-import "react-typed/dist/animatedCursor.css";
+import TextLoop from "react-text-loop";
 import { jsx } from "theme-ui";
 
-export default (props) => {
-  return (
+export default () => 
     <div sx={{ fontSize: [3, 4, 5], fontFamily: "spectral, serif" }}>
-      {/* Title */}
-      <Typed
-        sx={{ fontSize: [2, 3, 4], color: `secondary` }}
-        strings={["Random facts"]}
-        showCursor={false}
-        typeSpeed={30}
-      />
-      <br />
-      <Typed
-        strings={props.strings}
-        startDelay={1500}
-        typeSpeed={55}
-        backSpeed={30}
-        loop
-        shuffle
-        smartBackspace
-        backDelay={2500}
-      />
+      I prefer {" "}
+      <TextLoop>
+        <span>Functional</span>
+        <span>Test Driven</span>
+        <span>User Centric</span>
+        <span>Open Source</span>
+      </TextLoop>
+      ,{" "} and I code in{" "}
+      <TextLoop>
+        <span>TypeScript</span>
+        <span>Python</span>
+        <span>JavaScript</span>
+      </TextLoop>
     </div>
-  );
-};
+;

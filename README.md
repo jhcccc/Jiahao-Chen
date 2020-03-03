@@ -3,9 +3,6 @@
     <img alt="LekoArts" src="https://i.imgur.com/P2ABXY8.png" />
   </a>
 </p>
-<h1 align="center">
-  Gatsby Starter: Minimal Blog Enhanced
-</h1>
 
 <p align="center">
   <a href="https://github.com/Deerhound579/sixian.li/blob/master/LICENSE">
@@ -14,7 +11,7 @@
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
 </p>
 
-[Demo Website](https://www.sixian.li)
+[Demo Website](https://jiahao-chen.web.ap)
 
 Built upon the awesome Gatsby theme [@lekoarts/gatsby-theme-minimal-blog](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog):
 
@@ -26,7 +23,6 @@ Built upon the awesome Gatsby theme [@lekoarts/gatsby-theme-minimal-blog](https:
 
 - MDX
 - Fully customizable through the usage of Gatsby Themes (and Theme UI)
-- Light Mode / Dark Mode
 - Typography driven, minimal style
 - Tags/Categories support
 - Code highlighting with [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer) and [react-live](https://github.com/FormidableLabs/react-live) support. Also allows adding line numbers, line highlighting, language tabs, and file titles.
@@ -53,36 +49,3 @@ Built upon the awesome Gatsby theme [@lekoarts/gatsby-theme-minimal-blog](https:
 * Show excerpt in the blog page list
 
   ![excerpt](./demo/excerpt.png)
-
-TODO:
-
-* A reading progress bar to replace reading time since it’s not very accurate
-* Project page with project cards
-* Table of content for each post for an easier navigation
-* Suggestions are welcomed!
-
-## Customization
-
-You can follow the customization guide from [@lekoarts/gatsby-theme-minimal-blog](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog). Other things to point out:
-
-#### Changing the “Random Facts"
-
-Go to `src/@lekoarts/gatsby-theme-minimal-blog/texts/`, change `strings` in `Typewriter.jsx`. Or if you want to replace the whole section, just change `hero.mdx` to whatever you want.
-
-#### Can I disable Ghost?
-
-There's no easy switch to turn it on and off for now, but I plan to add this feature in the future.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on Gatsby's website](https://www.gatsbyjs.org/).
-
-### Themes
-
-- To learn more about Gatsby themes specifically, we recommend checking out the [theme docs](https://www.gatsbyjs.org/docs/themes/).
-
-### General
-
-- **For most developers, I recommend starting with the [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to Gatsby's documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Reference Guides_ and _Gatsby API_ sections in the sidebar.
